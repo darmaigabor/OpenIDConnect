@@ -498,7 +498,7 @@ OIDC.login = function(reqOptions) {
             + '&nonce=' + nonce
             + '&client_id=' + this['client_id']
 //            + '&response_mode=form_post'
-            + '&resource=http://otptest.alerant.corp:9006/testwebapp'
+            + '&resource=https://api-dev-int.otpbank.hu'
             + '&state=' + state
             + optParams
             + '&redirect_uri=' + this['redirect_uri'];
